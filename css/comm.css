@@ -31,6 +31,7 @@ html,
 body {
     width: 100%;
     height: 100%;
+    min-height: 100vh;
     margin: 0;
     padding: 0;
 }
@@ -57,6 +58,39 @@ body {
     background: white;
 }
 
+#con-2cols {
+    display: flex;
+  gap: 0; /* Space between columns */
+  width: 1201px;
+  height: 100vh;
+  margin: auto;
+}
+
+#con-2cols .left {
+    width: 600px;
+    padding: 20px 30px 30px;
+    height: 100vh;
+    /* Ensures it is at least the full height of the viewport */
+    box-sizing: border-box;
+    /* Optional: ensures padding doesn't push the height past 100vh + padding */
+    background: white;
+    overflow-y: auto;
+    border-right: 1px solid #ddd;
+}
+
+#con-2cols .right {
+    position: sticky;
+    width: 600px;
+    
+    padding: 20px 30px 200px;
+    height: 100vh;
+    overflow-y: auto;
+    /* Ensures it is at least the full height of the viewport */
+    box-sizing: border-box;
+    /* Optional: ensures padding doesn't push the height past 100vh + padding */
+    background: white;
+}
+
 #article-pre {
     white-space: pre-wrap;
 }
@@ -77,4 +111,18 @@ body {
     width: 100%;
     height: 100%;
     border: 0;
+}
+
+/* chapter subtitle or summary */
+h1 {
+
+}
+.ch-dropcap {
+    font-size: 45px;
+    font-weight: bold;
+}
+.ch-sub {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0;
 }
