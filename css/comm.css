@@ -82,7 +82,7 @@ body {
     position: sticky;
     width: 600px;
     
-    padding: 20px 30px 200px;
+    padding: 20px 30px 450px;
     height: 100vh;
     overflow-y: auto;
     /* Ensures it is at least the full height of the viewport */

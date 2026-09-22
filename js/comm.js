@@ -23,7 +23,13 @@ document.addEventListener('DOMContentLoaded', () => {
     document.title += " | " + TITLE
 
     let e = $('#article-pre')
-    e.innerHTML = e.innerHTML.replace(/^ +/gm, '').replace(/^\[.*/gm, m => `<span style="color:#999">${m}</span>`)
+   // e.innerHTML = e.innerHTML.replace(/^ +/gm, '').replace(/^\[.*/gm, m => `<span style="color:#999">${m}</span>`)
+   e.innerHTML = e.innerHTML
+  .replace(/^ +/gm, '')
+  .replace(/^\[img:(.*?) \/\/(.*?)\]/gm, (_, img, cap) => 
+    `<figure><img src="../img/illus/${img.trim()}"><figcaption><span style="color:#999">${cap.trim()}</span></figcaption></figure>`
+  )
+  .replace(/^\[.*/gm, m => `<span style="color:#999">${m}</span>`)
 
     const scrollDiv = document.querySelector('#con-2cols .right')
     const left = document.querySelector('#con-2cols .left')
