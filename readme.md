@@ -43,3 +43,13 @@ for f in *.jpg; do
   --out "${f%.jpg}-${w}-${q}.jpg"
 done
 ```
+
+##
+
+```
+pngquant --quality=75-80 x.png
+
+for img in *.png; do pngquant --quality=75-80 --ext .png --force "$img"; done
+
+for img in *.jpg; do jpegoptim --max=75 --strip-all "$img"; done
+```
