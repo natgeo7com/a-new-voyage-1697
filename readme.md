@@ -47,7 +47,7 @@ done
 ##
 
 ```
-pngquant --quality=75-80 x.png
+pngquant --quality=75-80 --ext .png --force x.png
 jpegoptim --max=75 --strip-all x.jpg
 
 for img in *.png; do pngquant --quality=75-80 --ext .png --force "$img"; done
