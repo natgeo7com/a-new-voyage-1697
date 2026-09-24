@@ -36,6 +36,21 @@ video {
     max-width: 100%;
 }
 
+table {
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 5px;
+    text-align: left;
+}
+
+th {
+    background-color: #f4f4f4;
+}
+
 // #endregion
 
 // #region html, body
@@ -107,7 +122,7 @@ body {
         padding: 20px 30px 450px;
         overflow-y: auto;
         background: white;
-        
+
         @include mobile {
             & {
                 width: 100vw;
