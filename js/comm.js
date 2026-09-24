@@ -29,6 +29,9 @@ document.addEventListener('DOMContentLoaded', () => {
   .replace(/^\[img:(.*?) \/\/(.*?)\]/gm, (_, img, cap) => 
     `<figure><img src="../img/illus/${img.trim()}"><figcaption><span style="color:#999">${cap.trim()}</span></figcaption></figure>`
   )
+  .replace(/^\[map:(.*?) \/\/ (.*?)\]/gm, (_, name, query) => 
+  `<a href="https://www.google.com/maps/search/${encodeURIComponent(query.trim())}" target="_blank" class="map-btn">\u{1F4CD} ${name.trim()}, modern day ${query}</a>`
+)
   .replace(/^\[.*/gm, m => `<span style="color:#999">${m}</span>`)
 
     const scrollDiv = document.querySelector('#con-2cols .right')

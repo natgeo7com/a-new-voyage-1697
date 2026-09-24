@@ -1,0 +1,136 @@
+// #region reset
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+// #endregion
+
+// #region common
+
+a {
+    color: blue;
+}
+
+a:visited {
+    // color: purple;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+figcaption {
+    color: #999;
+}
+
+video {
+    max-width: 100%;
+}
+
+// #endregion
+
+// #region html, body
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+}
+
+body {
+    font-size: 20px;
+    font-family: -apple-system, sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+// #endregion
+
+// #region article con
+
+@mixin mobile {
+    @media screen and (max-width: 768px) {
+        @content;
+    }
+}
+
+#con-2cols {
+    // left width is optimized for mac air temporarily for myself
+    // upside is no y scroll
+    // downside is text a bit too small
+    $tw: 1201px;
+    $lw: 450px;
+    $rw: $tw - $lw;
+
+    display: flex;
+    gap: 0;
+    width: $tw;
+    height: 100vh;
+    margin: auto;
+
+    @include mobile {
+        & {
+            width: 100vw;
+        }
+    }
+
+
+    .left {
+        width: $lw;
+        height: 100vh;
+        background: white;
+        overflow-y: auto;
+        border-right: 1px solid #ddd;
+
+        @include mobile {
+            & {
+                display: none;
+            }
+        }
+    }
+
+    .right {
+        width: $rw;
+        height: 100vh;
+        padding: 20px 30px 450px;
+        overflow-y: auto;
+        background: white;
+        
+        @include mobile {
+            & {
+                width: 100vw;
+            }
+        }
+
+        #article-pre {
+            white-space: pre-wrap;
+
+            h1 {}
+
+            .ch-dropcap {
+                font-size: 45px;
+                font-weight: bold;
+            }
+
+            .ch-sub {
+                font-size: 25px;
+                font-weight: bold;
+                margin: 0;
+            }
+        }
+    }
+}
+
+// #endregion
