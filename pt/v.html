@@ -29,6 +29,8 @@
                         return `<p class="gray">[${s.slice(6)}]</p>`
                     if (s.startsWith('// pt:'))
                         return `<p class="gray">[${s.slice(7)}]</p>`
+                    if (s.startsWith('// w:'))
+                        return `<p class="gray">[${s.slice(6)}]</p>`
                     if (s.startsWith('// h1:'))
                         return `<h1>${s.slice(7)}</h1>`
                     else if (s.startsWith('// sub:'))
