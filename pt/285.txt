@@ -1,0 +1,44 @@
+// p:
+285
+
+// y:
+An.1686
+
+// pt:
+A Table of every days Run to Guam.
+
+March.
+Day. Courſe. Diſt. S. W. Lat. Winds.
+31 SW 5dW 27 17 20 20: 11 WNW
+Ap 1 SW 5. W 106 68 81 R. 19: 3 NW:NNW
+2 SW 1 W 142 98 101 R. 17:25 NbW
+3 W by S 102 19 100 Ob.17: 6 N
+4 W 12 S 140 29 136 Ob.16:37 N: NNE
+5 W 20 S 160 54 150 Ob.15:43 N
+6 W 10 S 108 18 106 Ob.15:25 NE
+7 W 15 S 89 22 86 Ob.15: 2 NE:ENE
+8 W 2 S 64 5 63 R. 14:57 ENE
+9 W 4 S 94 6 93 Ob.14:51 ENE
+10 W 5 S 138 12 137 Ob.14:39 ENE
+11 W 5 S 124 10 123 Ob.14:29 ENE
+12 W 5 S 170 14 169 R. 14:15 ENE
+13 W 5 S 170 14 169 R. 14: 1 ENE
+14 W 5 S 180 15 177 R. 13:46 ENE
+15 W 6 S 174 18 172 R. 13:28 ENE cloudy
+16 W 6 S 182 19 180 R. 13: 9 ENE miſty
+17 W 6 S 216 22 214 R. 12:47 ENE Rain
+
+The Summ of the Weſtings hitherto is ------ 2283
+which make Deg. of Longitude ---- 39d. 5m.
+
+From hence my Courſe is moſt Weſt, ſometimes
+Southerly, ſometimes Northerly.
+Day Courſe. Diſt. N or S W. Lat. Winds.
+18 W 192 0 192 R. 12:47 E by N
+19 W 180 0 180 R. 12:47 E cloudy
+20 W 177 0 170 R. 12:47 ENE
+21 W 171 0 171 R. 12:47 ENE
+22 W 18 0 180 R. 12:47 E by N
+23 R. W. Ob.W4N 170 11 N 168 R. 12:47
+ob.12:58 E by N
+April
