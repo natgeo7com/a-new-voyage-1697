@@ -1,0 +1,93 @@
+// p:
+27
+
+// y:
+An. 1681
+
+// pt:
+The Privateers Intelligences.
+
+of the Indians, (who had promised to be their Guides)
+to march over land to Panama; and there is no other
+way of getting Prisoners for that purpose, but by
+absconding between Chagra and Portabell, because
+there are much Goods brought that way from Pana-
+ma; especially when the Armado lyeth at Portabell.
+All the Commanders were aboard of Captain Wright
+when we came into the Fleet; and were mighty
+inquisitive of the Prisoners to know the truth of
+what they related concerning us. But as soon as
+they knew we were come, they immediately came
+aboard of Captain Tristian, being all overjoy'd to see
+us, for Captain Coxon, and many others, had left us
+in the South Seas about 12 months since, and had
+never heard what became of us since that time.
+They enquired of us what we did there? how we
+lived? how far we had been? and what discoveries
+we made in those Seas? After we had answered
+these general questions, they began to be more par-
+ticular, in examining us concerning our passage
+through the Country from the South Seas. We re-
+lated the whole matter, giving them an account of
+the fatigues of our march, and the inconveniencies
+we suffered by the rains; and disheartned them quite
+from that design.
+
+// w:
+absconding: hiding, lying in wait
+
+// w:
+armado: armada, spanish treasure fleet
+
+// map:
+Portabell
+Portobelo, Colon, Panama
+
+// img:
+/img/pm/27/a2.jpg
+100
+Join forces;
+serious intel gathering and planning;
+care for comrades;
+disheartened quite a bit by overland conditions for planned raid on Panama.
+
+Then they proposed several other places where
+such a party of men as were now got together might
+make a Voyage; but the objections of some or other
+still hinder'd any proceeding: For the Privateers
+have an account of most Towns within 20 leagues
+of the Sea, on all the Coast from Trinidado down to
+La Vera Cruz; and are able to give a near guess of
+the strength and riches of them: For they make it
+their business to examine all Prisoners that fall into
+their hands, concerning the Country, Town,
+or City that they belong to; whether born
+there, or how long they have known it? how ma-
+ny families? whether most Spaniards? or whether
+the
+
+// map:
+Trinidado
+Trinidad and Tobago
+
+// map:
+La Vera Cruz
+Heroica Veracruz, Mexico
+
+// img:
+/img/pm/27/b2.png
+50
+From Trinidad to Veracruz,
+most towns within 120 kms of the coast,
+their strength and riches,
+the privateers have an account of.
+(This is not an exaggeration because
+there aren't many white towns back then,
+all towns have to trade and communicate,
+and privateers collectively came from everywhere and ventured everywhere.)
+
+<figure>
+    <video src="/vid/lagos-knows.mov" controls></video>
+    <figcaption>This reminds me of the Welcome to Lagos documentary.</figcaption>
+</figure>
+

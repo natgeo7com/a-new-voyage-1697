@@ -1,0 +1,62 @@
+// p:
+29
+
+// y:
+An. 1681
+
+// pt:
+The Isle of St. Andreas.
+
+lay up Carpenter's River, which is about 60 leagues
+to the Westward of Portabell. Our greatest obstructi-
+on in this design was our want of Boats: Therefore
+it was concluded to go with all our Fleet to St. An-
+dreas, a small uninhabited Island, lying near the Isle
+of Providence, to the Westward of it, in 13 Deg. 15
+Min. North Lat. and from Portabell N. N. W. about
+70 leagues; where we should be but a little way
+from Carpenter's River. And besides, at this Island
+we might build Canoas, it being plentifully stored
+with large Cedars for such a purpose; and for this
+reason the Jamaica-men come hither frequently to
+build Sloops; Cedar being very fit for building,
+and it being to be had here at free-cost, beside other
+Wood. Jamaica is well stored with Cedars of its
+own, chiefly among the Rocky Mountains: these
+also of St. Andreas grow in stony ground, and are
+the largest that ever I knew or heard of; the Bo-
+dies alone being ordinarily 40 or 50 foot long, ma-
+ny 60 or 70, and upwards, and of a proportionable
+bigness. The Bermudas Isles are well stored with
+them; so is Virginia, which is generally a sandy foil.
+I saw none in the East Indies, nor in the South Sea
+Coast, except on the Isthmus as I came over it. We
+reckon the Pereago's and Canoa's that are made of Ce-
+dar to be the best of any; they are nothing but the
+Tree itself made hollow Boat-wise, with a flat bot-
+tom, and the Canoa generally sharp at both ends,
+the Pereago at one only, with the other end flat.
+But what is commonly said of Cedar, that the
+Worm will not touch it, is a mistake, for I have
+seen of it very much worm-eaten.
+
+All things being thus concluded on, we sailed
+from hence, directing our course toward St. Andreas.
+We kept company the first day, but at night it blew
+a hard gale at N. E. and some of our Ships bore
+away: The next day others were forced to leave us,
+and the second night we lost all our company. I
+was
+
+// img:
+/img/pm/29/a2.png
+50
+Map: Marching to Panama is too far and too hard,
+to serve an unknown general and to satisfy the governor,
+they opted for a nearer, smaller, and safer target.
+First step, whole fleet went to St Andreas to build canoes,
+from there it's 1-2 days' sailing to Carpenter's River.
+(100km error is completely within reason for 17th century measurement and maps.
+From Limon of Costa Rica to its northern border, any large river mouth is a good candidate.
+Limon is parallel to San Jose.)
+

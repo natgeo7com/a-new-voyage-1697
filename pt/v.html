@@ -40,6 +40,8 @@
                 `
                     else if (s.startsWith('// img:'))
                         return g_fig(s)
+                    else if (s.startsWith('// map:'))
+                        return g_map(s)
                     else
                         return `<p>${s}</p>`
                 })
@@ -55,6 +57,15 @@
                     <img src="${file}" alt="${cap}" style="width: ${w}%;">
                     <figcaption>${cap}</figcaption>
                 </figure>
+            `
+        }
+
+        function g_map(str) {
+            const r = /^\/\/\s*map:\s*\r?\n(.+)\r?\n(.+)$/
+            const [, old, new_] = str.match(r)
+
+            return `
+                <p><a href="https://www.google.com/maps/search/${encodeURIComponent(new_.trim())}" target="_blank">\u{1F4CD} ${old.trim()}, modern day ${new_}</a></p>
             `
         }
 

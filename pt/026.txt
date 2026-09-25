@@ -5,38 +5,118 @@
 An. 1681
 
 // pt:
-The Author's Arrival at the North Seas.
+Privateers in the North Seas.
 
-and half a Dollar a man from each of us; which
-we would have bestowed in goods also, but could
-not get any, the Privateer having no more toys.
-They were so well satisfy d with these, that they
-return'd with joy to their friends; and were very
-kind to our Consorts whom we left behind; as
-Mr. Wafer our Chyrurgeon and the rest of them
-told us, when they came to us some months af-
-terwards, as shall be said hereafter.
+// sub:
+markable Land, and Product of the best Cacao
+Nuts. The Cacao described at large, with the
+Husbandry of it. City of Caraccus. La Guiare
+Fort and Haven. Town of Comana. Verina,
+its famous best Spanish Tobacco. The rich Trade
+of the Coast of Caraccus. Of the Sucking Fish,
+or Remora. The Authors Arrival in Virginia.
 
-I might have given a further account of several
-things relating to this Country; the In-land parts of
-which are so little known to the Europeans. But I
-shall leave this province to Mr. Wafer, who made a
-longer abode in it than I; and is better able to do
-it than any man that I know; and is now preparing
-a particular Description of this Country for the
-Press.
+<table>
+    <thead>
+        <tr>
+            <th>Captain</th>
+            <th>Ship / Vessel Type</th>
+            <th>Comments</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Capt. Coxon</td>
+            <td>10 Guns, 100 Men</td>
+            <td>English Commanders and Englishmen</td>
+        </tr>
+        <tr>
+            <td>Capt. Payne</td>
+            <td>10 Guns, 100 Men</td>
+            <td>English Commanders and Englishmen</td>
+        </tr>
+        <tr>
+            <td>Capt. Wright</td>
+            <td>a Barcolongo, 4 Guns, 40 Men</td>
+            <td>English Commanders and Englishmen</td>
+        </tr>
+        <tr>
+            <td>Capt. Williams</td>
+            <td>a small Barcolongo</td>
+            <td>English Commanders and Englishmen</td>
+        </tr>
+        <tr>
+            <td>Capt. Yankes</td>
+            <td>a Barco-longo, 4 Guns, about 60 Men</td>
+            <td>English, Dutch, and French; himself a Dutchman.</td>
+        </tr>
+        <tr>
+            <td>Capt. Archemboe</td>
+            <td>8 Guns, 40 Men</td>
+            <td>French Commanders and Men</td>
+        </tr>
+        <tr>
+            <td>Capt. Tucker</td>
+            <td>6 Guns, 70 Men</td>
+            <td>French Commanders and Men</td>
+        </tr>
+        <tr>
+            <td>Capt. Rose</td>
+            <td>a Barco-longo</td>
+            <td>French Commanders and Men</td>
+        </tr>
+    </tbody>
+</table>
 
-//
-A New Voyage and Description of the Isthmus of America by Lionel Wafer
+// dropcap:
+THe Privateer on board which we went being
+now clean'd, and our Indian Guides thus satis-
+fy'd and set ashore, we set sail in two days for
+Springer's Key, another of the Samballoe's Isles, and
+about 7 or 8 leagues from La Sound's Key. Here
+lay 8 sail of Privateers more, viz.
+Capt. Coxon, 10 Guns, 100 Men.
+Capt. Payne, 10 Guns, 100 Men.
+Capt. Wright, } 4 Guns, 40 Men.
+a Barcolongo
+Capt. Williams, a small Barcolongo
+Capt. Yankes a Barco-longo 4 Guns, about 60 Men,
+English, Dutch, and French; himself a Dutchman.
+Capt. Archemboe, 8 Guns, 40 Men.
+Capt. Tucker, 6 Guns, 70 Men.
+Capt. Rose, a Barco-longo.
 
-//
-Wafer was injured and lived among the indians for months, gaining unmatched firsthand knowledge of geography, flora, fauna, and culture.
+// w:
+cleaned: careened
 
-</article>
-</section>
+// w:
+in two days: two days later
 
-</div>
+// map:
+Samballoe's Isles
+San Blas Islands, Panama
 
-</body>
+An hour before we came to the Fleet, Captain
+Wright, who had been sent to Chagra River, arrived
+at Springer's Key, with a large Canoa or Pereago
+laden with Flower, which he took there. Some of
+the Prisoners belonging to the Pereago, came from
+Panama not above 6 days before he took her, and
+told the news of our coming over land, and like-
+wise related the condition and strengrh of Panama,
+which was the main thing they enquired after; for
+Captain Wright was sent thither purposely to get a
+Prisoner that was able to inform them of the
+strength of that City, because these Privateers de-
+signed to joyn all their force, and by the assistance
+of
 
-</html>
+// map:
+Mouth of Chagra River
+Fort San Lorenzo, Colon, Panama
+
+// img:
+/img/pm/26/a2.jpg
+100
+canoa vs pereago
+
