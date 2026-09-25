@@ -44,20 +44,7 @@ for f in *.jpg; do
 done
 ```
 
-## img code
 
-```
-pngquant --quality=75-80 --ext .png --force x.png
-jpegoptim --max=75 --strip-all x.jpg
 
-for img in *.png; do pngquant --quality=75-80 --ext .png --force "$img"; done
 
-for img in *.jpg; do jpegoptim --max=75 --strip-all "$img"; done
-```
 
-## css
-
-```bash
-# cd into css dir 1st
-sass --watch comm.scss comm.css
-```

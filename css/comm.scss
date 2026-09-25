@@ -3,41 +3,71 @@
 * {
     box-sizing: border-box;
     margin: 0;
-    padding: 0;
     border: 0;
+    padding: 0;
 }
 
 ul {
     list-style: none;
 }
 
+img {
+    display: block;
+}
+
+table {
+    border-collapse: collapse;
+}
+
 // #endregion
 
+
+
+
+
+
+
 // #region common
+
+html,
+body {
+    height: 100vh;
+    font-family: -apple-system, sans-serif;
+    font-size: 20px;
+}
+
+body {
+    background-repeat: no-repeat;
+    background-size: cover; // scale to fill container
+    background-position: center; // center it
+    background-attachment: fixed; // fix with viewport
+}
 
 a {
     color: blue;
 }
 
-a:visited {
-    // color: purple;
+p {
+    margin-bottom: 20px;
 }
 
 img {
-    display: block;
     max-width: 100%;
+}
+
+figure {
+    margin-bottom: 20px;
 }
 
 figcaption {
     color: #999;
+    font-size: 0.9rem;
+    padding: 5px 0 0;
+    white-space: pre-wrap;
 }
 
 video {
     max-width: 100%;
-}
-
-table {
-    border-collapse: collapse;
 }
 
 th,
@@ -53,25 +83,12 @@ th {
 
 // #endregion
 
-// #region html, body
 
-html,
-body {
-    width: 100%;
-    height: 100%;
-    min-height: 100vh;
-}
 
-body {
-    font-size: 20px;
-    font-family: -apple-system, sans-serif;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-}
 
-// #endregion
+
+
+
 
 // #region article con
 
@@ -81,19 +98,18 @@ body {
     }
 }
 
-#con-2cols {
+#con {
     // left width is optimized for mac air temporarily for myself
     // upside is no y scroll
     // downside is text a bit too small
     $tw: 1201px;
-    $lw: 450px;
+    $lw: 470px;
     $rw: $tw - $lw;
 
     display: flex;
-    gap: 0;
     width: $tw;
     height: 100vh;
-    margin: auto;
+    // margin: auto;
 
     @include mobile {
         & {
@@ -101,13 +117,11 @@ body {
         }
     }
 
-
-    .left {
+    #left {
         width: $lw;
         height: 100vh;
         background: white;
         overflow-y: auto;
-        border-right: 1px solid #ddd;
 
         @include mobile {
             & {
@@ -116,12 +130,12 @@ body {
         }
     }
 
-    .right {
+    article#right {
         width: $rw;
         height: 100vh;
         padding: 20px 30px 450px;
         overflow-y: auto;
-        background: white;
+        // background: white;
 
         @include mobile {
             & {
@@ -129,21 +143,27 @@ body {
             }
         }
 
-        #article-pre {
+        h1 {
+            font-size: 25px;
+            margin-bottom: 20px;
+        }
+
+        p {
             white-space: pre-wrap;
+        }
 
-            h1 {}
+        p.subtitle {
+            font-weight: bold;
+        }
 
-            .ch-dropcap {
-                font-size: 45px;
-                font-weight: bold;
-            }
+        p.dropcap::first-letter {
+            font-size: 25px;
+            font-weight: bold;
+        }
 
-            .ch-sub {
-                font-size: 25px;
-                font-weight: bold;
-                margin: 0;
-            }
+        // p n div
+        .gray {
+            color: #999;
         }
     }
 }

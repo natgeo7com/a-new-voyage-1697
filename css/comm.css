@@ -1,33 +1,61 @@
 * {
   box-sizing: border-box;
   margin: 0;
-  padding: 0;
   border: 0;
+  padding: 0;
 }
 
 ul {
   list-style: none;
 }
 
-a {
-  color: blue;
-}
-
 img {
   display: block;
-  max-width: 100%;
-}
-
-figcaption {
-  color: #999;
-}
-
-video {
-  max-width: 100%;
 }
 
 table {
   border-collapse: collapse;
+}
+
+html,
+body {
+  height: 100vh;
+  font-family: -apple-system, sans-serif;
+  font-size: 20px;
+}
+
+body {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+a {
+  color: blue;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+img {
+  max-width: 100%;
+}
+
+figure {
+  margin-bottom: 20px;
+}
+
+figcaption {
+  color: #999;
+  font-size: 0.9rem;
+  padding: 5px 0 0;
+  white-space: pre-wrap;
+}
+
+video {
+  max-width: 100%;
 }
 
 th,
@@ -41,69 +69,54 @@ th {
   background-color: #f4f4f4;
 }
 
-html,
-body {
-  width: 100%;
-  height: 100%;
-  min-height: 100vh;
-}
-
-body {
-  font-size: 20px;
-  font-family: -apple-system, sans-serif;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-}
-
-#con-2cols {
+#con {
   display: flex;
-  gap: 0;
   width: 1201px;
   height: 100vh;
-  margin: auto;
 }
 @media screen and (max-width: 768px) {
-  #con-2cols {
+  #con {
     width: 100vw;
   }
 }
-#con-2cols .left {
-  width: 450px;
+#con #left {
+  width: 470px;
   height: 100vh;
   background: white;
   overflow-y: auto;
-  border-right: 1px solid #ddd;
 }
 @media screen and (max-width: 768px) {
-  #con-2cols .left {
+  #con #left {
     display: none;
   }
 }
-#con-2cols .right {
-  width: 751px;
+#con article#right {
+  width: 731px;
   height: 100vh;
   padding: 20px 30px 450px;
   overflow-y: auto;
-  background: white;
 }
 @media screen and (max-width: 768px) {
-  #con-2cols .right {
+  #con article#right {
     width: 100vw;
   }
 }
-#con-2cols .right #article-pre {
+#con article#right h1 {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+#con article#right p {
   white-space: pre-wrap;
 }
-#con-2cols .right #article-pre .ch-dropcap {
-  font-size: 45px;
+#con article#right p.subtitle {
   font-weight: bold;
 }
-#con-2cols .right #article-pre .ch-sub {
+#con article#right p.dropcap::first-letter {
   font-size: 25px;
   font-weight: bold;
-  margin: 0;
+}
+#con article#right .gray {
+  color: #999;
 }
 
 /*# sourceMappingURL=comm.css.map */

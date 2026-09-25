@@ -1,0 +1,36 @@
+// p:
+1
+
+// y:
+An. 1681
+
+// pt:
+THE TRAVELS OF Mr. William Dampier.
+
+// h1:
+CHAP. I.
+
+// sub:
+An Account of the Author’s Return out of
+the South Seas, to his Landing near
+Cape St. Lawrence, in the Isthmus
+of Darien: With an Occasional Description
+of the Moskito Indians.
+
+// dropcap:
+April the 17th, 1681, about Ten a Clock in
+the morning, being 12 leagues N.W. from
+the Island Plata, we left Captain Sharp, and
+those who were willing to go with him in
+the Ship, and imbarqued into our Lanch and Ca-
+noas, designing for the River of Sancta Maria, in
+the Gulf of St. Michael, which is about 200 leagues
+from the Isle of Plata. We were in number 44
+white Men who bore Arms, a Spanish Indian, who
+bore Arms also; and two Moskito Indians, who
+always
+
+// img:
+/img/pm/1/dist2.png
+50
+Map: River Maria is about 1,200 kms from Island Plata.

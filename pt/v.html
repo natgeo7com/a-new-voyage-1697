@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="icon" type="image/png" href="/favicon.png">
+    <link rel="stylesheet" href="/css/comm.css">
+</head>
+
+<body>
+
+    <div id="con">
+        <div id="left"></div>
+        <article id="right"></article>
+    </div>
+
+    <script>
+        function process(s) {
+            return s
+                .split("\n\n")
+                .map(s => s.trim())
+                .filter(Boolean)
+                .map(s => {
+                    if (s.startsWith('// p:'))
+                        return `<p class="gray">[${s.slice(6)}]</p>`
+                    if (s.startsWith('// y:'))
+                        return `<p class="gray">[${s.slice(6)}]</p>`
+                    if (s.startsWith('// pt:'))
+                        return `<p class="gray">[${s.slice(7)}]</p>`
+                    if (s.startsWith('// h1:'))
+                        return `<h1>${s.slice(7)}</h1>`
+                    else if (s.startsWith('// sub:'))
+                        return `<p class="subtitle">${s.slice(8)}</p>`
+                    else if (s.startsWith('// dropcap:'))
+                        return `<p class="dropcap">${s.slice(12)}</p>
+                `
+                    else if (s.startsWith('// img:'))
+                        return g_fig(s)
+                    else
+                        return `<p>${s}</p>`
+                })
+                .join("")
+        }
+
+        function g_fig(str) {
+            const r = /^\/\/\s*img:\s*\r?\n([^\r\n]+)\r?\n([^\r\n]+)\r?\n([\s\S]*)$/
+            const [, file, w, cap] = str.match(r)
+
+            return `
+                <figure>
+                    <img src="${file}" alt="${cap}" style="width: ${w}%;">
+                    <figcaption>${cap}</figcaption>
+                </figure>
+            `
+        }
+
+        function g_fig_ss(n) {
+            // number here is to rm 0 padding
+            const cap = `Page ${Number(n)} screenshot.`
+            return `
+        <figure>
+            <img src="/img/p/chapters/0${n}.jpg" alt="${cap}">
+        </figure>
+        `
+        }
+
+        const n = location.href.split('=').pop().padStart(3, '0')
+        const conL = document.querySelector('#left')
+        const conR = document.querySelector('#right')
+
+        fetch(`${n}.txt`)
+            .then(r => r.text())
+            .then(process)
+            .then(s => {
+                conL.innerHTML = g_fig_ss(n)
+                conR.innerHTML = s
+            })
+    </script>
+
+</body>
+
+</html>

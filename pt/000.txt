@@ -1,0 +1,39 @@
+[p0]
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 1</title>
+    <link rel="icon" type="image/png" href="../favicon.png">
+    <link rel="stylesheet" href="../css/comm.css">
+    <script src="../js/comm.js"></script>
+    <style>
+        body {
+            background-image: url('../img/bg/001.jpg');
+        }
+
+        #map {
+            width: 1201px;
+            margin: auto;
+            background: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="con-2cols">
+
+        <section class="left">
+
+        </section>
+
+        <section class="right">
+            <article id="article-pre">
+                [ch1 is page 1-11]
+
+
+
+                
