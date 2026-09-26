@@ -100,7 +100,8 @@ def main(file_number_str):
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Page {file_number_str} Screenshot & Transcript (Extracted Text) | A New Voyage Round the World by William Dampier, 1697 Edition</title>
     {gtag}
-    <link rel="icon" type="image/png" href="/favicon.png">
+    <link rel="icon" href="/favicon.jpg">
+    <link rel="apple-touch-icon" href="/favicon.jpg">
     <link rel="stylesheet" href="/css/comm.css">
 </head>
 

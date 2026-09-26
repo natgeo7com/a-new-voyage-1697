@@ -5,16 +5,16 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
-    <link rel="icon" type="image/png" href="/favicon.png">
+    <link rel="icon" href="/favicon.jpg">
     <link rel="stylesheet" href="/css/comm.css">
 </head>
 
 <body>
 
-    <div id="con">
-        <div id="left"></div>
-        <article id="right"></article>
-    </div>
+    <article>
+        <section id="left"></section>
+        <section id="right"></section>
+    </article>
 
     <script>
         function process(s) {
@@ -79,16 +79,23 @@
         `
         }
 
-        const n = location.href.split('=').pop().padStart(4, '0')
+        const n = location.href.split('=').pop()
         const conL = document.querySelector('#left')
         const conR = document.querySelector('#right')
 
-        fetch(`${n}.txt`)
+        const a = Number(n)
+
+        const paging = `
+        <a href="/p.html?=${a-1}">${a-1}</a>
+        <a href="/p.html?=${a+1}">${a+1}</a>
+        `
+
+        fetch(`/pt/${n}.txt`)
             .then(r => r.text())
             .then(process)
             .then(s => {
                 conL.innerHTML = g_fig_ss(n)
-                conR.innerHTML = s
+                conR.innerHTML = paging + s
             })
     </script>
 
