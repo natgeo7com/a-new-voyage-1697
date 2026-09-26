@@ -1,3 +1,10 @@
+@mixin mobile {
+    @media screen and (max-width: 768px) {
+        @content;
+    }
+}
+
+
 // #region reset
 
 * {
@@ -22,25 +29,39 @@ table {
 // #endregion
 
 
-
-
-
-
-
 // #region common
 
-html,
-body {
-    height: 100vh;
+html {
     font-family: -apple-system, sans-serif;
     font-size: 20px;
 }
 
+html,
 body {
-    background-repeat: no-repeat;
-    background-size: cover; // scale to fill container
-    background-position: center; // center it
-    background-attachment: fixed; // fix with viewport
+    height: 100vh;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+p {
+    white-space: pre-wrap;
+    margin-bottom: 1rem;
+}
+
+p.subtitle {
+    font-weight: bold;
+}
+
+p.dropcap::first-letter {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+p.gray {
+    color: #999;
 }
 
 a {
@@ -48,16 +69,12 @@ a {
     text-decoration: none;
 }
 
-p {
-    margin-bottom: 20px;
-}
-
 img {
     max-width: 100%;
 }
 
 figure {
-    margin-bottom: 20px;
+    margin-bottom: 1.5rem;
 }
 
 figcaption {
@@ -85,21 +102,9 @@ th {
 // #endregion
 
 
+// #region article
 
-
-
-
-
-
-// #region article con
-
-@mixin mobile {
-    @media screen and (max-width: 768px) {
-        @content;
-    }
-}
-
-#con {
+article {
     // left width is optimized for mac air temporarily for myself
     // upside is no y scroll
     // downside is text a bit too small
@@ -110,7 +115,6 @@ th {
     display: flex;
     width: $tw;
     height: 100vh;
-    // margin: auto;
 
     @include mobile {
         & {
@@ -131,40 +135,16 @@ th {
         }
     }
 
-    article#right {
+    #right {
         width: $rw;
         height: 100vh;
         padding: 20px 30px 450px;
         overflow-y: auto;
-        // background: white;
 
         @include mobile {
             & {
                 width: 100vw;
             }
-        }
-
-        h1 {
-            font-size: 25px;
-            margin-bottom: 20px;
-        }
-
-        p {
-            white-space: pre-wrap;
-        }
-
-        p.subtitle {
-            font-weight: bold;
-        }
-
-        p.dropcap::first-letter {
-            font-size: 25px;
-            font-weight: bold;
-        }
-
-        // p n div
-        .gray {
-            color: #999;
         }
     }
 }
