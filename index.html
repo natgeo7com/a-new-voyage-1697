@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home | A New Voyage Round the World by William Dampier, 1697 Edition</title>
-    <link rel="icon" type="image/jpeg" href="/favicon.jpg">
+    <link rel="icon" href="/favicon.jpg">
     <link rel="apple-touch-icon" href="/favicon.jpg">
     <style>
         html {
@@ -19,6 +19,14 @@
             background-size: cover;
             background-position: center;
             background-attachment: fixed;
+        }
+
+        article {
+            box-sizing: border-box;
+            max-width: 700px;
+            margin: auto;
+            padding: 20px 35px 300px;
+            background: white;
         }
 
         section {
@@ -35,16 +43,17 @@
             margin-bottom: 1.5rem;
         }
 
-        #con {
-            box-sizing: border-box;
-            max-width: 700px;
-            margin: auto;
-            padding: 20px 35px 300px;
-            background: white;
-        }
-
         p {
             margin-bottom: 1rem;
+        }
+
+        a {
+            color: blue;
+            text-decoration: none;
+        }
+
+        ol {
+            list-style: none;
         }
 
         figure {
@@ -60,202 +69,206 @@
             max-width: 100%;
         }
 
-        a {
-            color: blue;
-            text-decoration: none;
-        }
-
-        ol {
-            list-style: none;
+        @media screen and (max-width: 768px) {
+            figure {
+                width: 90%;
+            }
         }
     </style>
 </head>
 
 <body>
 
-    <div id="con">
-        <article>
-            <section>
-                <h1>
-                    A New Voyage
-                    Round the World
-                    <br>
-                    by William Dampier,
-                    <br>
-                    1697 Edition
-                </h1>
+    <article>
+        <!-- title n cover -->
+        <section>
+            <h1>
+                A New Voyage
+                Round the World
+                <br>
+                by William Dampier,
+                <br>
+                1697 Edition
+            </h1>
+            <figure>
+                <img src="/img/p/title/1.jpg" alt="">
+                <figcaption>Title page (there was no book cover design)</figcaption>
+            </figure>
+        </section>
 
-                <figure>
-                    <img src="/img/p/title/1.jpg" alt="">
-                    <figcaption>Title page (there was no book cover design)</figcaption>
-                </figure>
-            </section>
+        <!-- intro of site -->
+        <section>
+            <h2>
+                ⚓️ Intro of this site
+            </h2>
+            <p>
+                This site includes all the pages of the book in images,
+                and text extracted from these images by latest AI.
+            </p>
+        </section>
 
-            <section>
-                <h2>
-                    ⚓️ Intro of this site
-                </h2>
-                <p>
-                    This site includes all the pages of the book in images,
-                    and text extracted from these images by latest AI.
-                </p>
-            </section>
+        <!-- intro of william -->
+        <section>
+            <h2>
+                ⚓️ Intro of W. Dampier, & why it's necessary
+            </h2>
 
-            <section>
-                <h2>
-                    ⚓️ Intro of W. Dampier, & why it's necessary
-                </h2>
+            <figure>
+                <img src="/img/dampier-portrait.jpg" alt="">
+                <figcaption>
+                    The famous portrait of William Dampier
+                    was commissioned by the intellectual elites
+                    during the height of his fame
+                    immediately following A New Voyage.
+                </figcaption>
+            </figure>
 
-                <figure>
-                    <img src="img/dampier-portrait.jpg" alt="">
-                    <figcaption>
-                        The famous portrait of W. Dampier
-                        was commissioned by the intellectual elites
-                        during the height of his fame
-                        immediately following A New Voyage.
-                    </figcaption>
-                </figure>
+            <p>
+                I shouldn't have to introduce
+                <a href="https://en.wikipedia.org/wiki/William_Dampier" target="_blank">William Dampier</a>,
+                but since the whole world knows Robinson Crusoe but not Old Dampier,
+                it's necessary to put in some context first.
+            </p>
 
-                <p>
-                    I shouldn't have to introduce
-                    <a href="https://en.wikipedia.org/wiki/William_Dampier" target="_blank">W. Dampier</a>,
-                    but since the whole world knows Robinson Crusoe but not Old Dampier,
-                    it's necessary to put in some context first.
-                </p>
+            <p>
+                This man is an
+                <strong>adventurer</strong>,
+                <strong>pirate</strong>,
+                <strong>scientist</strong>,
+                travel-cum-scientific writer,
+                and the <strong>1st Englishman who circumnavigated the world 3 times</strong>.
+            </p>
 
-                <p>
-                    This man is an
-                    <strong>adventurer</strong>,
-                    <strong>pirate</strong>,
-                    <strong>scientist</strong>,
-                    travel-cum-scientific writer,
-                    the <strong>1st Englishman who circumnavigated the world 3 times</strong>.
-                </p>
+            <p>
+                <span hidden>Unlike Taylor Swift,</span>
+                He was there in the <strong>Golden Age of Sailing</strong>,
+                fighting and barbecuing with legendary pirate captains in the Caribbeans.
+                He was also there in the very beginning of <strong>Scientific Thinking</strong> and Writing.
+                He captained the first sailing expedition to Australia purely for the purpose of science.
+            </p>
 
-                <p>
-                    <span hidden>Unlike Taylor Swift,</span>
-                    He was there in the <strong>Golden Age of Sailing</strong>,
-                    fighting and barbecuing with legendary pirate captains in the Caribbeans.
-                    He was also there in the very beginning of <strong>Scientific Thinking</strong> and Writing.
-                    He captained the first sailing expedition purely for the purpose of science.
-                </p>
+            <p>
+                His book
+                <cite>A New Voyage Round the World</cite>
+                was a massive sensation
+                that fundamentally shaped the genre of travel writing
+                and inspired generations of explorers and scientists.
+            </p>
 
-                <p>
-                    His book
-                    <cite>A New Voyage Round the World</cite>
-                    was a massive sensation
-                    that fundamentally shaped the genre of travel writing
-                    and inspired generations of explorers and scientists.
-                </p>
+            <p>
+                <strong>This man put piracy and science, the coolest things, in one book.</strong>
+            </p>
 
-                <p>
-                    <strong>This man put piracy and science, the coolest things, in one book.</strong>
-                </p>
+            <p>
+                He more than directly inspired
+                Daniel Defoe,
+                Charles Darwin,
+                Capt. Cook,
+                Adm. Nelson,
+                ...,
+                his books were required reading in the Royal Navy for its maritime knowledge and accuracy.
+            </p>
 
-                <p>
-                    He more than directly inspired Daniel Defoe, Charles Darwin, Capt. Cook, Adm. Nelson, ...,
-                    his books were required reading in the Royal Navy for its maritime knowledge and accuracy.
-                </p>
+            <p>
+                It's safe to say the Golden Age of Inquiry
+                (age of discovery, enlightenment, and scientific revolution)
+                is also the Golden Age of Sailing -
+                obviously adventure and commerce are the best teachers.
+                England was a very open-minded country at that time,
+                and Dampier was most celebrated as well.
+                But since then, he basically disappeared in public education.
+                We are still very open today, but the world is not free market any more.
+            </p>
+        </section>
 
-                <p>
-                    It's safe to say the Golden Age of Inquiry
-                    (age of discovery, enlightenment, and scientific revolution)
-                    is also the Golden Age of Sailing -
-                    obviously adventure and commerce are the best teachers.
-                    England was a very open-minded country at that time,
-                    and Dampier was most celebrated as well.
-                    But since then, he basically disappeared in public education.
-                    We are still very open today, but the world is not free market any more.
-                </p>
-            </section>
+        <!-- why this book n edition -->
+        <section>
+            <h2>
+                ⚓️ Great things about this book, & this particular edition
+            </h2>
 
-            <section>
-                <h2>
-                    ⚓️ Great things about this book, & this particular edition
-                </h2>
+            <p>
+                This year is 2026, meaning the book is published a bit over 300 years ago.
+                Its language is surprisingly modern - actually termed early-modern English
+                (where spelling was often fluid and phonetic) -
+                everybody can understand it with no big problem.
+            </p>
 
-                <p>
-                    This year is 2026, meaning the book is published a bit over 300 years ago.
-                    Its language is surprisingly modern - actually termed early-modern English
-                    (where spelling was often fluid and phonetic) -
-                    everybody can understand it with no big problem.
-                </p>
+            <p>
+                The amazing thing about the formatting in this edition is,
+                <strong>every line is very short and every page is very digestible</strong>.
+                500 pages, 20 chapters, on average 25 short pages a chapter.
+            </p>
 
-                <p>
-                    The amazing thing about the formatting in this edition is,
-                    <strong>every line is very short and every page is very digestible</strong>.
-                    500 pages, 20 chapters, on average 25 short pages a chapter.
-                </p>
+            <p>
+                You will notice that,
+                during that time English words,
+                <strong>both sounds and spelling, were not formalized</strong>.
+                At the peak of Age of Sailing, numerous places were discovered and named
+                by different nations, and perhaps multiples times.
+                And then later heard by people from different languages,
+                who often have to translate the words in sounds to their own informal spelling.
+            </p>
 
-                <p>
-                    You will notice that,
-                    during that time English words,
-                    <strong>both sounds and spelling, were not formalized</strong>.
-                    At the peak of Age of Sailing, numerous places were discovered and named
-                    by different nations, and perhaps multiples times.
-                    And then later heard by people from different languages,
-                    who often have to translate the words in sounds to their own informal spelling.
-                </p>
+            <p>
+                What this means -
+                the spelling consistency is nothing like today,
+                and the same places might have all kinds of names -
+                sometimes similar, sometimes not at all similar.
+                But, what I came to appreciate,
+                is that all these mistakes are very, very tolerable,
+                and in a way makes it much more interesting.
+                You can feel that, English, French, Spanish, ...,
+                all these people from very different places,
+                <strong>explore, fight, pirate, communicate, trade, ...,</strong>
+                it's very dynamic and interesting.
+            </p>
 
-                <p>
-                    What this means -
-                    the spelling consistency is nothing like today,
-                    and the same places might have all kinds of names -
-                    sometimes similar, sometimes not at all similar.
-                    But, what I came to appreciate,
-                    is that all these mistakes are very, very tolerable,
-                    and in a way makes it much more interesting.
-                    You can feel that, English, French, Spanish, ...,
-                    all these people from very different places,
-                    <strong>explore, fight, pirate, communicate, trade, ...,</strong>
-                    it's very dynamic and interesting.
-                </p>
+            <p>
+                But even if we do not live in that golden time and place,
+                when and where we do not have the seemingly endless options like today
+                for entertainment but not enough time,
+                <strong>it actually could be a great thing having not many options</strong>,
+                which gives us all the time and helps us focus on one great book or one thing,
+                therefore naturally resulting in very high <strong>"tolerance for mistakes"</strong>.
+                <strong>In that sense, this edition is perfect to me with all its imperfection</strong>.
+            </p>
 
-                <p>
-                    But even if we do not live in that golden time and place,
-                    when and where we do not have the seemingly endless options like today
-                    for entertainment but not enough time,
-                    <strong>it actually could be a great thing having not many options</strong>,
-                    which gives us all the time and helps us focus on one great book or one thing,
-                    therefore naturally resulting in very high <strong>"tolerance for mistakes"</strong>.
-                    <strong>In that sense, this edition is perfect to me with all its imperfection</strong>.
-                </p>
+        </section>
 
-            </section>
+        <!-- chapters -->
+        <section>
+            <h2>
+                ⚓️ Chapters
+            </h2>
 
-            <section>
-                <h2>
-                    ⚓️ Chapters
-                </h2>
+            <nav>
+                <ol>
+                    <li> <a href="/c/001.html">Chapter 1 (p 1-11, 11)</a> </li>
+                    <li> <a href="/c/002.html">Chapter 2 (p 11-24, 14)</a></li>
+                    <li><a href="/c/003.html">Chapter 3 (p 25-66, 42)</a></li>
+                    <li><a href="/c/004.html">Chapter 4 (p 67-92, 26)</a></li>
+                    <li><a href="/c/005.html">Chapter 5 (p 93-129, 37)</a></li>
+                    <li><a href="/c/006.html">Chapter 6 (p 130-160, 31)</a></li>
+                    <li><a href="/c/007.html">Chapter 7 (p 161-209, 49)</a></li>
+                    <li><a href="/c/008.html">Chapter 8 (p 210-236, 27)</a></li>
+                    <li><a href="/c/009.html">Chapter 9 (p 237-278, 42)</a></li>
+                    <li><a href="/c/010.html">Chapter 10 (p 279-304, 26)</a></li>
+                    <li><a href="/c/011.html">Chapter 11 (p 305-323, 19)</a></li>
+                    <li><a href="/c/012.html">Chapter 12 (p 324-344, 21)</a></li>
+                    <li><a href="/c/013.html">Chapter 13 (p 345-374, 30)</a></li>
+                    <li><a href="/c/014.html">Chapter 14 (p 375-402, 28)</a></li>
+                    <li><a href="/c/015.html">Chapter 15 (p 403-440, 38)</a></li>
+                    <li><a href="/c/016.html">Chapter 16 (p 441-470, 30)</a></li>
+                    <li><a href="/c/017.html">Chapter 17 (p 471-490, 20)</a></li>
+                    <li><a href="/c/018.html">Chapter 18 (p 491-520, 30)</a></li>
+                    <li><a href="/c/019.html">Chapter 19 (p 521-535, 15)</a></li>
+                    <li><a href="/c/020.html">Chapter 20 (p 536-550, 15)</a></li>
+                </ol>
+            </nav>
+        </section>
 
-                <nav>
-                    <ol>
-                        <li> <a href="/c/001.html">Chapter 1 (p 1-11, 11)</a> </li>
-                        <li> <a href="/c/002.html">Chapter 2 (p 11-24, 14)</a></li>
-                        <li><a href="/c/003.html">Chapter 3 (p 25-66, 42)</a></li>
-                        <li><a href="/c/004.html">Chapter 4 (p 67-92, 26)</a></li>
-                        <li><a href="/c/005.html">Chapter 5 (p 93-129, 37)</a></li>
-                        <li><a href="/c/006.html">Chapter 6 (p 130-160, 31)</a></li>
-                        <li><a href="/c/007.html">Chapter 7 (p 161-209, 49)</a></li>
-                        <li><a href="/c/008.html">Chapter 8 (p 210-236, 27)</a></li>
-                        <li><a href="/c/009.html">Chapter 9 (p 237-278, 42)</a></li>
-                        <li><a href="/c/010.html">Chapter 10 (p 279-304, 26)</a></li>
-                        <li><a href="/c/011.html">Chapter 11 (p 305-323, 19)</a></li>
-                        <li><a href="/c/012.html">Chapter 12 (p 324-344, 21)</a></li>
-                        <li><a href="/c/013.html">Chapter 13 (p 345-374, 30)</a></li>
-                        <li><a href="/c/014.html">Chapter 14 (p 375-402, 28)</a></li>
-                        <li><a href="/c/015.html">Chapter 15 (p 403-440, 38)</a></li>
-                        <li><a href="/c/016.html">Chapter 16 (p 441-470, 30)</a></li>
-                        <li><a href="/c/017.html">Chapter 17 (p 471-490, 20)</a></li>
-                        <li><a href="/c/018.html">Chapter 18 (p 491-520, 30)</a></li>
-                        <li><a href="/c/019.html">Chapter 19 (p 521-535, 15)</a></li>
-                        <li><a href="/c/020.html">Chapter 20 (p 536-550, 15)</a></li>
-                    </ol>
-                </nav>
-            </section>
-
-        </article>
-    </div>
+    </article>
 
 </body>
 
