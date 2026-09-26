@@ -4,9 +4,6 @@
     }
 }
 
-
-// #region reset
-
 * {
     box-sizing: border-box;
     margin: 0;
@@ -25,11 +22,6 @@ img {
 table {
     border-collapse: collapse;
 }
-
-// #endregion
-
-
-// #region common
 
 html {
     font-family: -apple-system, sans-serif;
@@ -99,11 +91,6 @@ th {
     background-color: #f4f4f4;
 }
 
-// #endregion
-
-
-// #region article
-
 article {
     // left width is optimized for mac air temporarily for myself
     // upside is no y scroll
@@ -149,4 +136,8 @@ article {
     }
 }
 
-// #endregion
+@include mobile {
+    p {
+        white-space: normal;
+    }
+}
