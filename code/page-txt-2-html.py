@@ -75,7 +75,7 @@ def process(text):
 
 def main(file_number_str):
     # Ensure file_number_str is 3 digits padded (e.g., "005")
-    n_padded = file_number_str.zfill(4)
+    n_padded = file_number_str
     input_filename = f"{root}/pt/{n_padded}.txt"
     output_filename = f"{root}/p/{n_padded}.html"
     

@@ -29,7 +29,7 @@ chapters = [
 
 for ch, start, end in chapters:
   links = "\n".join(
-      f'<li><a href="/p/{f"{p:04}"}.html">{p}</a></li>'
+      f'<li><a href="/p/{p}.html">{p}</a></li>'
       for p in range(start, end + 1)
   )
   html = f"""<!DOCTYPE html>
