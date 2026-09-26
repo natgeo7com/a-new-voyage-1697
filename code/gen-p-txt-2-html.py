@@ -51,11 +51,11 @@ def process(text):
     html_out = []
     for s in blocks:
         if s.startswith('// p:'):
-            html_out.append(f'<p class="gray">[{s[6:]}]</p>')
+            html_out.append(f'<p class="gray">{s[6:]}</p>')
         elif s.startswith('// y:'):
-            html_out.append(f'<p class="gray">[{s[6:]}]</p>')
+            html_out.append(f'<p class="gray">{s[6:]}</p>')
         elif s.startswith('// pt:'):
-            html_out.append(f'<p class="gray">[{s[7:]}]</p>')
+            html_out.append(f'<p class="gray">{s[7:]}</p>')
         elif s.startswith('// w:'):
             html_out.append(f'<p class="gray">[{s[6:]}]</p>')
         elif s.startswith('// h1:'):
