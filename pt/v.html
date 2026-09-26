@@ -74,12 +74,12 @@
             const cap = `Page ${Number(n)} screenshot.`
             return `
         <figure>
-            <img src="/img/p/chapters/0${n}.jpg" alt="${cap}">
+            <img src="/img/p/chapters/${n}.jpg" alt="${cap}">
         </figure>
         `
         }
 
-        const n = location.href.split('=').pop().padStart(3, '0')
+        const n = location.href.split('=').pop().padStart(4, '0')
         const conL = document.querySelector('#left')
         const conR = document.querySelector('#right')
 
