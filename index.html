@@ -4,41 +4,70 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-    <link rel="icon" type="image/png" href="/favicon.png">
-    <link rel="stylesheet" href="/css/comm.css">
-    <script src="/js/comm.js"></script>
+    <title></title>
+    <link rel="icon" type="image/jpeg" href="/favicon.jpg">
+    <link rel="apple-touch-icon" href="/favicon.jpg">
+    <script src="/js/name.js"></script>
     <style>
+        html {
+            font-family: -apple-system, sans-serif;
+            font-size: 20px;
+        }
+
         body {
             background-image: url('/img/bg/001.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+
+        section {
+            margin-bottom: 3rem;
+        }
+
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 2rem;
         }
 
         h2 {
-            font-size: 25px;
+            font-size: 1.5rem;
+            margin-bottom: 1.5rem;
         }
 
         #con {
-            max-width: 600px;
+            box-sizing: border-box;
+            max-width: 700px;
             margin: auto;
-            padding: 20px 30px 200px;
-            height: 100vh;
+            padding: 20px 35px 300px;
             background: white;
-            overflow-y: auto;
         }
 
-        h2,
-        p,
-        figure {
-            margin-bottom: 20px;
+        p {
+            margin-bottom: 1rem;
         }
 
         figure {
-            width: 60%;
-            margin: 0 auto 20px;
+            width: 70%;
+            margin: 0 auto 1.5rem;
         }
 
         figcaption {
-            white-space: normal;
+            color: #999;
+        }
+
+        img {
+            max-width: 100%;
+        }
+
+        a {
+            color: blue;
+            text-decoration: none;
+        }
+
+        ol {
+            list-style: none;
         }
     </style>
 </head>
@@ -47,27 +76,21 @@
 
     <div id="con">
         <article>
-            <h1>
-                A New Voyage
-                Round the World
-                <br>
-                by William Dampier,
-                <br>
-                1697 Edition
-            </h1>
-
-            <br>
-            <br>
-
             <section>
+                <h1>
+                    A New Voyage
+                    Round the World
+                    <br>
+                    by William Dampier,
+                    <br>
+                    1697 Edition
+                </h1>
+
                 <figure>
-                    <img src="/img/p/title/1.jpg" alt="title page of the book (there was no book cover design)">
+                    <img src="/img/p/title/1.jpg" alt="">
                     <figcaption>Title page (there was no book cover design)</figcaption>
                 </figure>
             </section>
-
-            <br>
-            <br>
 
             <section>
                 <h2>
@@ -79,16 +102,13 @@
                 </p>
             </section>
 
-            <br>
-            <br>
-
             <section>
                 <h2>
                     ⚓️ Intro of W. Dampier, & why it's necessary
                 </h2>
 
                 <figure>
-                    <img src="img/dampier-portrait.jpg" alt="the famous portrait of william dampier, commissioned during the height of his fame following a new voyage">
+                    <img src="img/dampier-portrait.jpg" alt="">
                     <figcaption>
                         The famous portrait of W. Dampier
                         was commissioned by the intellectual elites
@@ -204,54 +224,42 @@
 
             </section>
 
-            <br>
-            <br>
-
             <section>
                 <h2>
                     ⚓️ Chapters
                 </h2>
 
-                <nav id="ch-list-con">
-                    <a href="c/001.html">Chapter 1 (p 1-11, 11)</a>
-                    <a href="c/002.html">Chapter 2 (p 11-24, 14)</a>
-                    <a href="c/003.html">Chapter 3 (p 25-66, 42)</a>
-                    <a href="c/004.html">Chapter 4 (p 67-92, 26)</a>
-                    <a href="c/005.html">Chapter 5 (p 93-129, 37)</a>
-                    <a href="c/006.html">Chapter 6 (p 130-160, 31)</a>
-                    <a href="c/007.html">Chapter 7 (p 161-209, 49)</a>
-                    <a href="c/008.html">Chapter 8 (p 210-236, 27)</a>
-                    <a href="c/009.html">Chapter 9 (p 237-278, 42)</a>
-                    <a href="c/010.html">Chapter 10 (p 279-304, 26)</a>
-                    <a href="c/011.html">Chapter 11 (p 305-323, 19)</a>
-                    <a href="c/012.html">Chapter 12 (p 324-344, 21)</a>
-                    <a href="c/013.html">Chapter 13 (p 345-374, 30)</a>
-                    <a href="c/014.html">Chapter 14 (p 375-402, 28)</a>
-                    <a href="c/015.html">Chapter 15 (p 403-440, 38)</a>
-                    <a href="c/016.html">Chapter 16 (p 441-470, 30)</a>
-                    <a href="c/017.html">Chapter 17 (p 471-490, 20)</a>
-                    <a href="c/018.html">Chapter 18 (p 491-520, 30)</a>
-                    <a href="c/019.html">Chapter 19 (p 521-535, 15)</a>
-                    <a href="c/020.html">Chapter 20 (p 536-550, 15)</a>
+                <nav>
+                    <ol>
+                        <li> <a href="c/001.html">Chapter 1 (p 1-11, 11)</a> </li>
+                        <li> <a href="c/002.html">Chapter 2 (p 11-24, 14)</a></li>
+                        <li><a href="c/003.html">Chapter 3 (p 25-66, 42)</a></li>
+                        <li><a href="c/004.html">Chapter 4 (p 67-92, 26)</a></li>
+                        <li><a href="c/005.html">Chapter 5 (p 93-129, 37)</a></li>
+                        <li><a href="c/006.html">Chapter 6 (p 130-160, 31)</a></li>
+                        <li><a href="c/007.html">Chapter 7 (p 161-209, 49)</a></li>
+                        <li><a href="c/008.html">Chapter 8 (p 210-236, 27)</a></li>
+                        <li><a href="c/009.html">Chapter 9 (p 237-278, 42)</a></li>
+                        <li><a href="c/010.html">Chapter 10 (p 279-304, 26)</a></li>
+                        <li><a href="c/011.html">Chapter 11 (p 305-323, 19)</a></li>
+                        <li><a href="c/012.html">Chapter 12 (p 324-344, 21)</a></li>
+                        <li><a href="c/013.html">Chapter 13 (p 345-374, 30)</a></li>
+                        <li><a href="c/014.html">Chapter 14 (p 375-402, 28)</a></li>
+                        <li><a href="c/015.html">Chapter 15 (p 403-440, 38)</a></li>
+                        <li><a href="c/016.html">Chapter 16 (p 441-470, 30)</a></li>
+                        <li><a href="c/017.html">Chapter 17 (p 471-490, 20)</a></li>
+                        <li><a href="c/018.html">Chapter 18 (p 491-520, 30)</a></li>
+                        <li><a href="c/019.html">Chapter 19 (p 521-535, 15)</a></li>
+                        <li><a href="c/020.html">Chapter 20 (p 536-550, 15)</a></li>
+                    </ol>
                 </nav>
-            </section>
-
-            <br>
-            <br>
-            <br>
-
-            <section hidden>
-                <p>
-                    Early Modern English, where spelling was often fluid and phonetic
-                </p>
             </section>
 
         </article>
     </div>
 
     <script>
-        const con = $('#ch-list-con')
-        con.innerHTML = `<ul>${[...con.children].map(a => `<li>🌴 ${a.outerHTML}</li>`).join('')}</ul>`
+        document.title = "Home | " + NAME
     </script>
 
 </body>
