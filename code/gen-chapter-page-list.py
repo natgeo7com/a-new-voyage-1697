@@ -2,6 +2,7 @@
 # run this code anywhere
 
 root = "/Users/alex/Downloads/a-new-voyage-1697"
+gtag = open(f'{root}/code/gtag.html', 'r').read()
 
 chapters = [
     (1, 1, 11),
@@ -38,8 +39,14 @@ for ch, start, end in chapters:
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chapter {ch} Page List | A New Voyage Round the World by William Dampier, 1697 Edition</title>
+    {gtag}
     <link rel="icon" href="/favicon.jpg">
     <link rel="apple-touch-icon" href="/favicon.jpg">
+    <style>
+    html {{
+      font-size: 20px;
+    }}
+    </style>
 <h1>Chapter {ch}</h1>
 <ol>
 {links}

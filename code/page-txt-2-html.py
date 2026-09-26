@@ -7,6 +7,7 @@ import re
 import urllib.parse
 
 root = "/Users/alex/Downloads/a-new-voyage-1697"
+gtag = open(f'{root}/code/gtag.html', 'r').read()
 
 def g_fig(string_block):
     # Matches: // img:\n[file]\n[width]\n[caption]
@@ -97,7 +98,8 @@ def main(file_number_str):
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Page {file_number_str} Screenshot & Transcipt | A New Voyage Round the World by William Dampier, 1697 Edition</title>
+    <title>Page {file_number_str} Screenshot & Transcript (Extracted Text) | A New Voyage Round the World by William Dampier, 1697 Edition</title>
+    {gtag}
     <link rel="icon" type="image/png" href="/favicon.png">
     <link rel="stylesheet" href="/css/comm.css">
 </head>
