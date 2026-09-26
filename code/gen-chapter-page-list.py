@@ -53,5 +53,5 @@ for ch, start, end in chapters:
 </ol>
 """
 
-  with open(f"{root}/c/{ch:03}.html", "w") as f:
+  with open(f"{root}/c/{ch}.html", "w") as f:
     f.write(html)
